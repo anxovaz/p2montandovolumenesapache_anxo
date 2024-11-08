@@ -20,7 +20,7 @@ docker run --mount type=bind,source="$(pwd)"/htdocs,target=/usr/local/apache2/ht
 
 Código html:
 ```shell
-$<html>
+<html>
 <head>
 <meta charset="utf-8">
 </head>
