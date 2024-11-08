@@ -19,7 +19,8 @@ Primeiro monto o volume coa ruta do index.html.
 docker run --mount type=bind,source="$(pwd)"/htdocs,target=/usr/local/apache2/htdocs httpd
 
 Código html:
-<html>
+```shell
+$<html>
 <head>
 <meta charset="utf-8">
 </head>
@@ -27,6 +28,8 @@ Código html:
 <h1>Anxo Vázquez Lorenzo - Práctica 2</h1>
 </body>
 </html>
+```
+
 
 Despois asigno o porto e indico a ruta da carpeta que contén o html (htdocs) e a ruta da carpeta htdocs do apache do contedor "asir_httpd".
 
